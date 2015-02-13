@@ -26,3 +26,7 @@ You can find the scraper [here](https://github.com/shauryashahi/CricBets/blob/ma
 16.  http://www.oddsportal.com/cricket/world/tri-series-2011/results/
 17.  http://www.oddsportal.com/cricket/world/tri-series-2010/results/
 18.  http://www.oddsportal.com/cricket/world/tri-series-2009/results/
+19. http://www.oddsportal.com/cricket/asia/asia-cup/results/
+20. http://www.oddsportal.com/cricket/asia/asia-cup-2012/results/
+21. http://www.oddsportal.com/cricket/asia/asia-cup-2010/results/
+22. http://www.oddsportal.com/cricket/world/dubai-triangular-series/results/
