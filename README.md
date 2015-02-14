@@ -5,7 +5,15 @@ Historical Odds of International Cricket Matches
 You can find the scraper [here](https://github.com/shauryashahi/CricBets/blob/master/scraper.js) – written in phantomjs
 
 * * *
+## How to Run
 
+python automate.py
+* * *
+This command runs the scraper one by one on all the URLs. The variable jsonobj has the required json array.
+
+##Issues
+
+There is currently no function that joins all the different 'jsonobj' variables into one Big JSON array.
 ## URLs to be scraped
 
 1.  http://www.oddsportal.com/cricket/world/icc-world-cup-2011/results/
