@@ -30,7 +30,7 @@ page.open('http://www.oddsportal.com/cricket/world/icc-world-cup-2011/results/',
     //console.log(scrape[0].Winner + " " + scrape[0].Team1 + " " + scrape[0].Team2 + " " + scrape[0].OddsTeam1 + " " + scrape[0].OddsTeam2);
     //console.log(scrape[1].Winner + " " + scrape[1].Team1 + " " + scrape[1].Team2 + " " + scrape[1].OddsTeam1 + " " + scrape[1].OddsTeam2);
     console.log('Scraped : ' + system.args[1]); 
-  }
-  var jsonobj = JSON.stringify(scrape); //This is the Required JSON array
+    var jsonobj = JSON.stringify(scrape);
+  } //This is the Required JSON array
   phantom.exit();
 });
