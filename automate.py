@@ -1,6 +1,6 @@
 import subprocess
 urls = ['http://www.oddsportal.com/cricket/world/icc-world-cup-2011/results/','http://www.oddsportal.com/cricket/world/icc-world-cup/results/','http://www.oddsportal.com/cricket/world/icc-champions-trophy-2009/results/','http://www.oddsportal.com/cricket/world/icc-champions-trophy/results/','http://www.oddsportal.com/cricket/world/one-day-international/results/','http://www.oddsportal.com/cricket/world/one-day-international-2014/results/','http://www.oddsportal.com/cricket/world/one-day-international-2013/results/','http://www.oddsportal.com/cricket/world/one-day-international-2012/results/','http://www.oddsportal.com/cricket/world/one-day-international-2011/results/','http://www.oddsportal.com/cricket/world/one-day-international-2010/results/','http://www.oddsportal.com/cricket/world/one-day-international-2009/results/','http://www.oddsportal.com/cricket/world/tri-series/results/','http://www.oddsportal.com/cricket/world/tri-series-2014/results/','http://www.oddsportal.com/cricket/world/tri-series-2013/results/','http://www.oddsportal.com/cricket/world/tri-series-2012/results/','http://www.oddsportal.com/cricket/world/tri-series-2011/results/','http://www.oddsportal.com/cricket/world/tri-series-2010/results/','http://www.oddsportal.com/cricket/world/tri-series-2009/results/','http://www.oddsportal.com/cricket/asia/asia-cup/results/','http://www.oddsportal.com/cricket/asia/asia-cup-2012/results/','http://www.oddsportal.com/cricket/asia/asia-cup-2010/results/','http://www.oddsportal.com/cricket/world/dubai-triangular-series/results/']
 for url in urls:
-	args = ['phantomjs','scraper.js',url]
+	args = ['phantomjs','scraper.js',url,'>>',jdata.txt]
 	p = subprocess.Popen(args)
-	print('Scraping : ' + url)
+	#print('Scraping : ' + url)
